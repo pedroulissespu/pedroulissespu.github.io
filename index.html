@@ -1,28 +1,123 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="index.css">
-    <title>Pagina Principal</title>
-</head>
-<body>
-    <h1>Teste de Site Para Redirecionamento 3D</h1>
-    <p>Clique Para Ir Para o Site 3D</p>
-    <a href="src/html/3DPageTest.html">3DPageTest</a>
-    <div style="position: fixed; top: 0 ; right: 300px;">
-        <img src="src/images/Pedro_Ulisses.png" alt="Pedro Ulisses" style="width: 75px ; height : 80px;">
-    </div>
-    <div style="position: fixed; top : 0 ; right: 600px;">
-        <img src="src/images/pp,840x830-pad,1000x1000,f8f8f8.jpg" alt="Lucas Holanda" style="width: 75px ; height : 80px;">
-    </div>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.108.0">
+    <title>Pagina Principal Projeto</title>
 
-    <div style="position: fixed; top: 70px; right: 550px;">
-        <a href="https://github.com/LuikHol">Lucas Holanda Github</a>
-    </div>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/navbars-offcanvas/">
 
-    <div style="position: fixed; top: 80px ; right: 250px;">
-        <a href="https://github.com/pedroulissespu">Pedro Ulisses Github</a>
+    
+
+    
+
+<link href="src/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+    <link href="src/css/navbars-offcanvas.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<main>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Offcanvas navbar large">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navegador Entre Menus</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Offcanvas</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Pagina Principal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="src/html/DevelopersPage.html">Desenvolvedores</a>
+            </li>
+          </ul>
+          <form class="d-flex mt-3 mt-lg-0" role="search">
+            <input class="form-control me-2" type="search" placeholder="Procurar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Procurar</button>
+          </form>
+        </div>
+      </div>
     </div>
-</body>
+  </nav>
+
+  <div class="container my-5">
+    <div class="bg-light p-5 rounded">
+      <div class="col-sm-8 py-5 mx-auto">
+        <h1 class="display-5 fw-normal">Para experienciar a realidade virtual e aumentada clique no botão abaixo.</h1>
+        <p class="fs-5">O desenvolvimento da realidade virtual e aumentada foi desenvolvida utilizando o A-Frame.</p>
+        <p>
+          <a class="btn btn-primary" href="src/html/3DPageTest.html" role="button">Realidade Virtual e Aumentada &raquo;</a>
+        </p>
+    </div>
+    </div>
+  </div>
+</main>
+
+
+    <script src="src/assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
 </html>
