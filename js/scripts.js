@@ -32,6 +32,16 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
+if (window.location.hash) {
+    const targetElement = document.querySelector(window.location.hash);
+    if (targetElement) {
+        targetElement.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+    }
+}
+
 document.querySelectorAll('div[id]').forEach(div => {
     div.addEventListener('error', () => {
         console.error(`Erro ao carregar o conteúdo de ${div.id}`);
