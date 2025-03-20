@@ -16,6 +16,7 @@ loadPartial('projetos', 'partials/projetos.html');
 loadPartial('conhecimentos', 'partials/conhecimentos.html');
 loadPartial('certificacoes', 'partials/certificacoes.html');
 loadPartial('experiencia', 'partials/experiencia.html');
+loadPartial('premios', 'partials/premios.html');
 loadPartial('blog', 'partials/blog.html');
 loadPartial('footer', 'partials/footer.html');
 
