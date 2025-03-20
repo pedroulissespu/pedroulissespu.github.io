@@ -120,8 +120,15 @@ body {
 
 /* Animações */
 @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .section {
@@ -158,7 +165,8 @@ body {
     margin-bottom: 1.5rem;
 }
 
-input, textarea {
+input,
+textarea {
     width: 100%;
     padding: 0.8rem;
     border: 1px solid #ddd;
@@ -275,7 +283,7 @@ button:hover {
 
 .skill-item:hover {
     background: white;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
 
 .skill-item i {
@@ -305,7 +313,7 @@ button:hover {
     background: white;
     padding: 2rem;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
 }
 
 .form-group input,
@@ -317,7 +325,7 @@ button:hover {
 .form-group textarea:focus {
     border-color: var(--secondary-color);
     outline: none;
-    box-shadow: 0 0 0 3px rgba(52,152,219,0.1);
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
 }
 
 /* Melhorias na Responsividade */
@@ -326,7 +334,7 @@ button:hover {
         width: 100%;
         justify-content: center;
     }
-    
+
     .contact-form {
         padding: 1.5rem;
     }
@@ -341,7 +349,7 @@ button:hover {
 }
 
 .highlight-card {
-    background: rgba(255,255,255,0.1);
+    background: rgba(255, 255, 255, 0.1);
     padding: 1.5rem;
     border-radius: 10px;
     text-align: center;
@@ -378,7 +386,7 @@ button:hover {
     background: white;
     padding: 1.5rem;
     border-radius: 8px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Prêmios */
@@ -394,12 +402,17 @@ button:hover {
     right: -50%;
     width: 200%;
     height: 200%;
-    background: linear-gradient(45deg, transparent, rgba(255,255,255,0.1));
+    background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.1));
     transform: rotate(45deg);
 }
 
-.gold { color: #FFD700; }
-.bronze { color: #CD7F32; }
+.gold {
+    color: #FFD700;
+}
+
+.bronze {
+    color: #CD7F32;
+}
 
 /* Footer */
 .footer-content {

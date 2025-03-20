@@ -1,0 +1,110 @@
+.blog-post {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.post-header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.post-meta {
+    display: flex;
+    gap: 1.5rem;
+    color: #7f8c8d;
+    margin-bottom: 2rem;
+}
+
+.post-featured-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 2rem 0;
+}
+
+.post-section {
+    margin: 3rem 0;
+}
+
+.styled-list li {
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    background: #f8f9fa;
+    border-left: 4px solid #3498db;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.feature-card {
+    padding: 1.5rem;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.roadmap-timeline {
+    border-left: 3px solid #3498db;
+    padding-left: 2rem;
+}
+
+.timeline-item {
+    margin: 2rem 0;
+    position: relative;
+}
+
+.timeline-date {
+    position: absolute;
+    left: -120px;
+    top: 0;
+    background: #3498db;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.cta-button {
+    padding: 1rem 2rem;
+    background: #3498db;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.cta-button:hover {
+    transform: translateY(-3px);
+}
+
+.post-navigation {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background: #f8f9fa;
+    border-radius: 10px;
+}
+
+.post-navigation .back-button {
+    background: #3498db;
+    color: white;
+}
+
+.post-navigation .back-button:hover {
+    background: #2980b9;
+}
